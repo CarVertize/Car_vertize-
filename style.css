@@ -332,8 +332,15 @@ animation: pAni forwards 1s ease;
 }
 @media screen and (max-width: 320px) {
     /* Styles for mobile only */
-    body {
-        font-size: 14px;
+  .header-left h1{
+        font-size: 36px;
+        line-height: 50px;
+        color: var(--color-black);
+        animation: h1Ani forwards 1s ease;
+        opacity: 0;
+        animation-delay: .2s;
+        color: var(--color-white);
+    
     }
 
     nav {
