@@ -330,7 +330,7 @@ animation: pAni forwards 1s ease;
 
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 320px) {
     /* Styles for mobile only */
     body {
         font-size: 14px;
